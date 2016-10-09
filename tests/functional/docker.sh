@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
-DOMAIN="http://localhost:9000"
+DOMAIN=$(docker port projecttemplatestatic_nginx_1 80/tcp)
 
 getResponseCode() {
-    echo $(curl -sL -w "%{http_code}\\n" "$1" -o /dev/null)
+    echo $(curl -sL -w "%{http_code}\\n" "${1}" -o /dev/null)
 }
 
 testCurlGets200StatusCodeAsResponseFromRootDirectory() {
