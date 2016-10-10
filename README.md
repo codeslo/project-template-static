@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/codeslo/project-template-static.svg?branch=master)](https://travis-ci.org/codeslo/project-template-static)
-
-# project-template-static
+# project-template-static [![Build Status](https://travis-ci.org/codeslo/project-template-static.svg?branch=master)](https://travis-ci.org/codeslo/project-template-static)
 
 ## Instructions
 
